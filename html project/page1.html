@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my website</title>
+</head>
+<style>
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: maroon;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: yellow}
+
+.button:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+<script>
+function myFunction() {
+  alert("You have Successfully Logged In...");
+}
+function f1(){
+	var x= document.getElementById("us")
+	x.style.background="lightgreen";
+}
+function f2(){
+	var x= document.getElementById("ab")
+	x.style.background="lightgreen";
+}
+</script>
+<body background="c.jpg">
+<marquee style="color:red" direction="up"><center><h1><B>New Deluxe Book Shop</B></h1></center></marquee>
+<center><iframe height="55" width="500" src="p.html" scrolling="no"></iframe></center>
+<form  method="post" action="page2.html">
+	<h1><B>fill the details :</B></h1>
+	<h3>Username<input type="text" id="us" onfocus="f1()"></h3><br>
+	<h3>Password<input type="password" id="ab" onfocus="f2()"></h3><br>
+	<h3><input type="checkbox"> Remember me</h3> 
+	<h3><input type="submit" class="button" value="login" onclick="myFunction()" formaction="page3.html" > <input type="submit" class="button"value="Create Account" formaction="page2.html"></h3> 
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<marquee behavior="alternate"><h1>"Padega India Tabhi Toh Badega India .."</h1></marquee>
+
+</form> 
+</body>
+</html>

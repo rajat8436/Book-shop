@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title></title>
+</head>
+<style>
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: green;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: red}
+
+.button:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+<script>
+function myFunction() {
+  alert("Account Creation Successfull...");
+}
+function f3(){
+	var x= document.getElementById("a")
+	x.style.background="lightblue";
+}
+function f4(){
+	var x= document.getElementById("b")
+	x.style.background="lightgreen";
+}
+function f5(){
+	var x= document.getElementById("c")
+	x.style.background="lightblue";
+}
+function f6(){
+	var x= document.getElementById("d")
+	x.style.background="lightgreen";
+}
+</script>
+<body background="re.jpg" width="100%" >
+<marquee scrolling="no"><h1 style="color:red">We Provide Best Deals to our Customers  with full Satisfaction.."</font></h1></marquee>
+<fieldset>
+		<legend><h1>Account Details</h1></legend>
+		<img src="a.jpg" align="right">
+		<h3>It's Free and Always will be..</h3>
+		<b>First Name</b> <input type="text" id="a" onfocus="f3()"><br>
+		<br>
+		<b>Last Name</b> <input type="text" id="b" onfocus="f4()"><br>
+		<br>
+		<b>Mobile number</font></b> <input type="number" id="c" onfocus="f5()"><br>
+		<br>
+		<b>Password</b> <input type="password" id="d" onfocus="f6()"><br>
+		<br>
+		<b>Gender :</b><br>
+		<input type="radio" name="gender" value="Male" checked><b>Male</b><br>
+		<input type="radio" name="gender" value="Female"><B>Female</B><br>
+		<input type="radio" name="gender" value="Female"><b>others</b><br>
+		<br>
+		<b>Nationality :</b><br>
+		<input type="radio" name="nationality" value="Indian" checked><b>Indian</b><br>
+		<input type="radio" name="nationality" value="Not an Indian"><b>Not an Indian</b><br>
+		<h5><b>By clicking, you agree to our terms and conditions.</b></h5><br>
+		<a href="page3.html" class="button" onclick="myFunction()"><b>Sign up</b></a>
+</fieldset>
+	<marquee hspace=300><h1 style="color:blue">"Stop Not Till The Goal is Reached.."</h1></marquee>
+</body>
+</html>
